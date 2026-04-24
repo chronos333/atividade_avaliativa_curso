@@ -1,0 +1,47 @@
+Alarme,Descricao,Solucao
+Comm. fail,Falha de comunicação interna entre retificador inversor ou bypass,Verificar conexões internas e módulos
+Parallel Comm. Fail,Falha de comunicação entre UPS em paralelo,Ligar UPS desligados e pressionar FAULT CLEAR
+Battery Overtemp.,Temperatura da bateria acima do limite,Verificar temperatura e ventilação
+Ambient Overtemp.,Temperatura ambiente acima do limite,Melhorar ventilação da sala do UPS
+Battery Replaced,Bateria falhou no teste e precisa ser substituída,Substituir bateria
+Battery Low Pre-warning,Bateria prestes a descarregar completamente,Desligar carga antes da descarga total
+Battery End of Discharge,Bateria descarregada e inversor desligado,Restabelecer energia de entrada
+Mains Volt. Abnormal,Tensão de entrada fora do padrão,Verificar tensão de entrada do retificador
+Mains Undervoltage,Tensão de entrada abaixo do limite,Verificar linha de alimentação
+Mains Freq. Abnormal,Frequência da rede fora do padrão,Verificar frequência da rede elétrica
+Batt. Charger Fail,Falha no carregador de bateria,Verificar circuito de carga
+Control Power 1 Fail,Falha na alimentação de controle,Verificar fonte de controle
+Mains Phase Reversed,Sequência de fase invertida,Verificar sequência das fases
+Rectifier Fault,Falha interna no retificador,Acionar suporte técnico
+Rectifier Overtemp,Temperatura alta no retificador,Verificar ventilação
+Soft Start Fail,Falha na partida do retificador,Contatar assistência técnica
+Bypass Unable to Trace,Tensão ou frequência do bypass fora do padrão,Verificar alimentação do bypass
+Bypass Abnormal,Bypass fora dos limites operacionais,Verificar rede e parâmetros
+Inverter Asynchronous,Inversor fora de sincronismo com bypass,Verificar forma de onda
+Inverter fault,Tensão de saída do inversor fora do padrão,Transferência para bypass ocorre automaticamente
+Fan fault,Falha em ventilador interno,Substituir ventilador
+Bypass STS Fail,Falha no chaveamento estático do bypass,Requer manutenção técnica
+Output Fuse Fail,Fusível de saída queimado,Substituir fusível
+Unit Over load,Sobrecarga acima de 105%,Reduzir carga conectada
+System Over load,Sobrecarga no sistema paralelo,Reduzir carga total
+Unit Over load Timeout,Sobrecarga persistente com timeout,Reduzir carga e aguardar recuperação
+Byp. Abnormal Shutdown,Tensão de bypass e inversor anormais,Verificar ambas entradas
+Inverter Over Current,Sobrecorrente no inversor,Verificar carga conectada
+Bypass Phase Reversed,Sequência de fase invertida no bypass,Verificar instalação elétrica
+Load Impact Transfer,Transferência devido a carga abrupta,Ligar cargas gradualmente
+Transfer Time-out,Muitas transferências em pouco tempo,Aguardar estabilização
+Load Sharing Fault,Erro no compartilhamento de carga,Verificar sistema paralelo
+DC Bus Abnormal,Tensão DC fora do padrão,Verificar circuito interno
+DC Bus Over Voltage,Tensão DC muito alta,Verificar retificador e carga
+Bypass Over Current,Corrente alta no bypass,Monitorar carga
+LBS Active,Modo LBS ativo,Operação normal em configuração dual
+Mains Neutral Lost,Neutro da rede não detectado,Verificar conexão do neutro
+Battery ground fault,Falha de aterramento da bateria,Acionar suporte técnico
+Manual Turn On,Inversor ligado manualmente,Operação normal
+Manual Turn Off,Inversor desligado manualmente,Operação normal
+EPO,Parada de emergência ativada,Verificar botão EPO
+Turn On Fail,Falha ao ligar inversor,Verificar condições do sistema
+Bypass Mode,Sistema operando em bypass,Verificar motivo
+Normal Mode,Sistema operando normalmente,Sem ação necessária
+Battery Mode,Sistema operando na bateria,Monitorar autonomia
+UPS Shutdown,Sistema desligado,Verificar causa
